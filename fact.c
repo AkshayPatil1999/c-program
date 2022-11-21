@@ -10,3 +10,11 @@ main()
       }
   printf("\n fact=%d",fact);
 }
+void add()
+{
+  int a,b,c;
+  printf("\n Enter the two numbers = ");
+  sacnf("%d%d",&a,&b);
+  c=a+b;
+  printf("\n %d",c);
+}
